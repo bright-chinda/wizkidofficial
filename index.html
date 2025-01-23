@@ -27,13 +27,13 @@
 
           <div class="links">
             <ul>
-              <li><a href="#music">Music</a></li>
+              <li class="tab-list"><a href="#music">Music</a></li>
               <span class="dash"></span>
-              <li><a href="#videos">videos</a></li>
+              <li class="tab-list"><a href="#videos">videos</a></li>
               <span class="dash"></span>
-              <li><a href="#tour">tour</a></li>
+              <li class="tab-list"><a href="#tour">tour</a></li>
               <span class="dash"></span>
-              <li><a href="#follow">follow + join</a></li>
+              <li class="tab-list"><a href="#follow">follow + join</a></li>
             </ul>
             <div class="exit-btn-body">
               <button class="exit-btn"><i class='bx bx-x'></i></button>
@@ -139,7 +139,7 @@
 
 
       <!-- MEDIA Q CAROUSEL for LATEST -->
-      <div class="hide">
+      <div class="hide" id="latest">
         <div id="carouselExampleLatest2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -251,7 +251,7 @@
       </div>
 
       <!-- MEDIA Q CAROUSEL -->
-      <div class="hide">
+      <div class="hide" id="music">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -324,10 +324,10 @@
           </button>
         </div>
       </div>
-     <!-- MEDIA Q CAROUSEL ENDS HERE -->
+      <!-- MEDIA Q CAROUSEL ENDS HERE -->
 
       <!-- CAROUSEL VIDIE0S -->
-      <div class="carousel-videos" id="videos" style="margin: 50px;">
+      <div class="carousel-videos hide2" id="videos" style="margin: 50px;">
         <h2>videos</h2>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -339,7 +339,6 @@
                 
                 <div class="carousel-context">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/zm96T-_2edI?si=lQohpNKoIKrmQiGe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/o1PruUT2LdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                 </div>
               </div>
              </div>
@@ -369,6 +368,41 @@
         </div>
        </div>
       <!-- CAROUSEL VIDIE0S ENDS HERE-->
+
+       <!-- MEDIA Q CAROUSEL -->
+       <div class="carousel-videos">
+        <h2 style="padding-bottom: 5px !important;">Videos</h2>
+         <div class="hide">
+        <div id="carouselExamplevideos" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner"  id="videos">
+            <div class="carousel-item active">
+              <div class="bodies">
+                <div class="carousel-content">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zr_sTaYTCnU?si=he-gAtq_eUtJlYDK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <div class="bodies">
+                <div class="carousel-content">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/zm96T-_2edI?si=lQohpNKoIKrmQiGe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplevideos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExamplevideos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+      </div>
+     <!-- MEDIA Q CAROUSEL ENDS HERE -->
 
       <!-- PINK SECTION -->
       <div class="pink-section" id="tour">
