@@ -228,7 +228,16 @@ header{
 .carousel-select-music{
     padding-bottom: 160px;
 }
-.carousel-select-music h2{
+.latest-container h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    color: var(--primary-color);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.music-container h2{
     display: flex;
     justify-content: center;
     padding-top: 90px;
